@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_background"
+    >
+    <com.rilintech.fragment_301_huxike_android.view.ImageCircleView
+        android:id="@+id/logo"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="48dp"
+       android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:id="@+id/text_hospital_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="北京三零一医院"
+        android:layout_below="@+id/logo"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_26"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        />
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="154dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/text_hospital_name"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"
+        />
+    <TextView
+        android:id="@+id/text_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="患者信息管理系统"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/line"
+        android:textSize="@dimen/text_size_18"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="131dp"
+        />
+<RelativeLayout
+    android:id="@+id/user_name_rl"
+    android:layout_width="match_parent"
+    android:layout_height="37dp"
+    android:layout_marginTop="46dp"
+    android:layout_marginLeft="37dp"
+    android:layout_marginRight="37dp"
+    android:layout_below="@+id/text_app_name"
+    android:layout_centerVertical="true"
+    android:gravity="center"
+    >
+    <ImageView
+        android:id="@+id/touxiang"
+        android:layout_width="27dp"
+        android:layout_height="37dp"
+        android:src="@drawable/touxiang_login"/>
+    <EditText
+        android:id="@+id/account_et"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="30dp"
+        android:background="@null"
+        android:singleLine="true"
+        android:ems="15"
+        android:textColorHint="@color/white"
+        android:textSize="@dimen/text_size_14"
+        android:hint="请输入账号"/>
+
+</RelativeLayout>
+    <TextView
+        android:id="@+id/line2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_below="@+id/user_name_rl"
+        android:textSize="@dimen/text_size_18"
+        android:background="@android:color/white" />
+
+    <RelativeLayout
+        android:id="@+id/password_rl"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_below="@+id/line2"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/password_iv"
+            android:layout_width="27dp"
+            android:layout_height="37dp"
+            android:src="@drawable/password"/>
+        <EditText
+            android:id="@+id/password_et"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="30dp"
+            android:background="@null"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_14"
+            android:ems="20"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white"
+            android:hint="请输入密码"/>
+        <ImageView
+            android:id="@+id/invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:onClick="visible"
+            android:src="@drawable/invisible" />
+
+        <ImageView
+            android:id="@+id/visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:onClick="invisible"
+            android:src="@drawable/visible"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/line3"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_below="@+id/password_rl"
+        android:textSize="@dimen/text_size_18"
+        android:background="@android:color/white" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox_remeber_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/line3"
+        android:layout_below="@+id/line3"
+        android:layout_marginTop="18dp"
+        android:textColor="@android:color/white"
+        android:text="是否记住密码" />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox_remeber_pwd"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttonstyle"
+        android:text="登陆" />
+    <CheckBox
+        android:id="@+id/checkBox_auto_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="37dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:layout_alignBaseline="@+id/checkBox_remeber_pwd"
+        android:text="自动登陆" />
+
+
+    <TextView
+        android:id="@+id/company_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9.5"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:text="版权所有：北京瑞林萨尔科技有限公司"
+        android:textSize="15sp"/>
+
+
+</RelativeLayout><!-- From: file:/C:/Users/ykt003/Desktop/working_copies/Fragment_301_huxike_android/app/src/main/res/layout/activity_login.xml -->

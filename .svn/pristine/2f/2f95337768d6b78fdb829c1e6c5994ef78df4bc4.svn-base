@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/switch_background" android:state_focused="true" />
+    <item android:drawable="@drawable/switch_background" />
+</selector>
+<!-- From: file:/C:/Users/ykt003/Desktop/working_copies/Fragment_301_huxike_android/app/src/main/res/drawable/switch_track.xml -->

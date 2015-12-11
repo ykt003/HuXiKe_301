@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#dbd2d2"></solid>
+            <gradient android:startColor="#dbd2d2" android:endColor="#dbd2d2" android:angle="270"></gradient>
+        </shape>
+    </item>
+    
+    <item android:state_pressed="false">
+        <shape>
+            <solid android:color="#ffffff"></solid>
+            <gradient android:startColor="#ffffff" android:endColor="#ffffff" android:angle="270"></gradient>
+        </shape>
+    </item>
+
+</selector>
+<!-- From: file:/C:/Users/ykt003/Desktop/working_copies/Fragment_301_huxike_android/app/src/main/res/drawable/answer_choose_bg.xml -->

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_subscribe"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="72.0dip"
+    android:background="@drawable/grid_view_item_bg"
+    android:minWidth="72.0dip" >
+
+    <ImageView
+        android:id="@+id/img_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:minHeight="72.0dip"
+        android:minWidth="72.0dip"
+        android:src="@drawable/clock" />
+
+    <LinearLayout
+        android:id="@+id/viewpager_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_item"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"           
+            android:text="天气"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:minHeight="38.0dip"
+            android:minWidth="72.0dip"
+            android:textColor="@color/subscribe_item_text_color"
+            android:textSize="14.0sp" />
+
+        <LinearLayout
+            android:id="@+id/point_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- android:layout_margin="5dip" -->
+
+    <ImageView
+        android:id="@+id/icon_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/channel_new"
+        android:visibility="gone" />
+
+</RelativeLayout><!-- From: file:/C:/Users/ykt003/Desktop/working_copies/Fragment_301_huxike_android/app/src/main/res/layout/channel_item.xml -->

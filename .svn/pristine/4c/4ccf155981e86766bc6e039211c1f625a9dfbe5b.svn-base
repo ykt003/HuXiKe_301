@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/build/intermediates/pre-dexed/debug/classes-ffb5c45bf7fe1478aec781c8666707cd90796eb1.jar" />
+    </item>
+    <item
+        jar="/Applications/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-10e59ff79f971cf1db19a89f30988efa1de05d1a.jar" />
+    </item>
+    <item
+        jar="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/libs/umeng-update-v2.6.0.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="7bfeea30c4995f90a4374ce4177772a4579f2797">
+        <dex dex="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/build/intermediates/pre-dexed/debug/umeng-update-v2.6.0.1-e1b48901e82243d1e313caaf121784eb34be99fb.jar" />
+    </item>
+    <item
+        jar="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-3d49ba32e8365ac1b731c3fd21a3a6b12131a2cf.jar" />
+    </item>
+    <item
+        jar="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/libs/baidumapapi.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="be663e47f5b665965d710c695b4264193a712a18">
+        <dex dex="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/build/intermediates/pre-dexed/debug/baidumapapi-9d77a1f6971e77084b2e50512b42b1cae8e22b79.jar" />
+    </item>
+    <item
+        jar="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/libs/universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="e33324b770223932d467e4ec39639b0c15f3b94e">
+        <dex dex="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.2-SNAPSHOT-with-sources-c0e0949734d3da546859a79dfb981ebeac0be273.jar" />
+    </item>
+    <item
+        jar="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/libs/locSDK_6.12.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="010b23f54856d560fe7cd47fbe6659d916db19f1">
+        <dex dex="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/build/intermediates/pre-dexed/debug/locSDK_6.12-88b15a7e433bb8055c0a7c4bcef3754bcd7781fe.jar" />
+    </item>
+    <item
+        jar="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-08077300e2dc7fd681c3a6d26154eb15479e6c16.jar" />
+    </item>
+    <item
+        jar="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/rilintech/Desktop/working_copies/Fragment_301_huxike_android/app/build/intermediates/pre-dexed/debug/classes-9e8101c0aa95aa19c1e00e6ca183e76a00bd6ce4.jar" />
+    </item>
+
+</items>

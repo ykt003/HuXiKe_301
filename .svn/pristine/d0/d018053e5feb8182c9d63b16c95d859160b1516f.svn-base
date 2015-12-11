@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mFrameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+
+    <com.rilintech.fragment_301_huxike_android.view.MyScrollView
+        android:id="@+id/mScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/mRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="true"
+            android:fitsSystemWindows="true"
+            android:orientation="vertical">
+
+            <!-- 广告条的使用 -->
+            <com.rilintech.fragment_301_huxike_android.viewpager.MyViewPagerTransformerAnim
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_below="@+id/title_bar" />
+            <!-- 广告条下边的文字 -->
+            <LinearLayout
+                android:id="@+id/viewpager_text"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_alignBottom="@id/viewpager"
+                android:background="#33000000"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/point_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <com.rilintech.fragment_301_huxike_android.view.DragGrid
+                android:id="@+id/userGridView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/viewpager_text"
+                android:layout_margin="20px"
+                android:gravity="center"
+                android:horizontalSpacing="20px"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="3"
+                android:scrollbars="vertical"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="20px" />
+        </LinearLayout>
+
+    </com.rilintech.fragment_301_huxike_android.view.MyScrollView>
+
+
+</RelativeLayout>
